@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "proof of concepts on a custom design system based in MUI",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "webpack serve",
     "start:standalone": "webpack serve --env standalone",
