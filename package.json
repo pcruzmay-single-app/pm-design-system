@@ -1,6 +1,6 @@
 {
   "name": "@pcruzmay/design-system",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "proof of concepts on a custom design system based in MUI",
   "license": "MIT",
   "publishConfig": {
