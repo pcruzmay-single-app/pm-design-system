@@ -1,13 +1,12 @@
 {
   "extends": "ts-config-single-spa",
   "compilerOptions": {
-    "strict": true,
     "jsx": "react-jsx",
     "declarationDir": "dist",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
   },
   "files": ["src/pcruzmay-design-system.tsx"],
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "types"],
   "exclude": ["src/**/*.test*"]
 }

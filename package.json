@@ -1,13 +1,13 @@
 {
   "name": "@pcruzmay/design-system",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "proof of concepts on a custom design system based in MUI",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "start": "webpack serve",
+    "start": "webpack serve --port 8080",
     "start:standalone": "webpack serve --env standalone",
     "build": "concurrently yarn:build:*",
     "build:webpack": "webpack --mode=production",
